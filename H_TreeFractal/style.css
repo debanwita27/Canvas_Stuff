@@ -1,0 +1,28 @@
+*{
+    /*override default browser settings*/
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;/*border-box includes any margin or padding while calculating width or height*/
+}
+canvas{
+    position : absolute;
+    background: black;
+    width : 100%;
+    height : 100%;
+}
+.generate-tree-button{
+    cursor : pointer;
+    outline : none;
+    border: none;
+    position: absolute;
+    bottom: 5%;
+    z-index: 10;
+    left: 50%;
+    transform: translate(-50% , 0);/*centre horizontally in the middle of the page*/
+    padding: 20px 30px;
+    border-radius: 50px;
+    background-color: darkslategrey;
+    color: aliceblue;
+    font-size: 20px;
+    overflow: hidden;
+}
